@@ -2,8 +2,6 @@
 
 Sup is a console-based email client for people with a lot of email.
 
-> Note: Sup is currently un-maintained. Please see [this discussion](https://github.com/sup-heliotrope/sup/issues/504). The [notmuch mail](https://notmuchmail.org/) project and its associated [clients](https://notmuchmail.org/frontends/) were inspired by sup and are actively maintained and developed.
-
 <img src="https://sup-heliotrope.github.io/images/old_screenshot_1.png" />
 
 ## Installation
@@ -43,10 +41,22 @@ Please report bugs to the [GitHub issue tracker](https://github.com/sup-heliotro
 * IRC: [#sup @ freenode.net](http://webchat.freenode.net/?channels=#sup)
 * Mailing list: supmua@googlegroups.com (subscribe: supmua+subscribe@googlegroups.com, archive: https://groups.google.com/d/forum/supmua )
 
+## Alternatives
+
+Sup is a stable, production-quality mail client.
+The maintainers are not intending to add new major features in future.
+If Sup is missing a feature you are interested in, it might be
+possible to accomplish using Sup's [powerful hooks mechanism][hooks].
+Otherwise, here are some alternatives to consider:
+
+* The [notmuch mail](https://notmuchmail.org/) project was inspired by Sup,
+  and there is a wide variety of different
+  [clients](https://notmuchmail.org/frontends/) available for it.
+
 ## License
 
 ```
-Copyright (c) 2013       Sup developers.
+Copyright (c) 2013--     Sup developers.
 Copyright (c) 2006--2009 William Morgan.
 
 This program is free software; you can redistribute it and/or
