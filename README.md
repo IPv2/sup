@@ -43,15 +43,25 @@ Please report bugs to the [GitHub issue tracker](https://github.com/sup-heliotro
 
 ## Alternatives
 
-Sup is a stable, production-quality mail client.
-The maintainers are not intending to add new major features in future.
-If Sup is missing a feature you are interested in, it might be
-possible to accomplish using Sup's [powerful hooks mechanism][hooks].
+Sup is a mature, production-quality mail client.
+
+The maintainers are also long-term users, and mainly focus on preserving the
+current feature set. PRs are very welcome, especially to maintain or improve
+stability and compatibility; however PRs for major new features are unlikely to
+be merged.
+
+If Sup is missing a feature you are interested in, it might be possible to
+accomplish using Sup's [powerful hooks mechanism][hooks].
+
 Otherwise, here are some alternatives to consider:
 
-* The [notmuch mail](https://notmuchmail.org/) project was inspired by Sup,
-  and there is a wide variety of different
-  [clients](https://notmuchmail.org/frontends/) available for it.
+* [Notmuch](https://notmuchmail.org/) was inspired by Sup.
+  * There are a wide variety of
+    [Notmuch clients](https://notmuchmail.org/frontends/) available.
+  * The most similar to Sup's look-and-feel is
+    [Alot](https://github.com/pazz/alot) &mdash; also a curses-based frontend.
+    Alot even ships with a built-in
+    [Sup theme](https://github.com/pazz/alot/blob/master/extra/themes/sup)!
 
 ## License
 
